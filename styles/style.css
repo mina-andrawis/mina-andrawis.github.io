@@ -1,15 +1,15 @@
 p {
-  color: red;
+  color: black;
 }
 
 html {
 	font-family: 'Raleway', sans-serif;
-	font-family: 'Sansita Swashed', cursive;
 	
 	background-color: #6BD0D4;
 }
 
 h1 {
+	font-family: 'Sansita Swashed', cursive;
 	font-size: 60px;
 	text-align: center;
 	margin: 0;
@@ -25,7 +25,7 @@ p, li {
 body {
   width: 700px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #FBBE60;
   padding: 0 20px 20px 20px;
   border: 1px solid none;
 }
