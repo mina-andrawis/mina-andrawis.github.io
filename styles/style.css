@@ -10,6 +10,7 @@ html {
   box-sizing: border-box;   /* makes width and height refer to entire box
                               instead of simply the content box - padding and
                               margin still apply */
+  height: 100%;
 }
 
 *, *::before, *::after {
@@ -22,6 +23,11 @@ h1 {
 	font-size: 60px;
 	text-align: center;
 	margin: 0;
+	}
+
+h2 {
+	font-size: 40px;
+	text-align: left;
 	}
 
 p, li {
@@ -59,13 +65,24 @@ a:visited {
 #leftbox{
   float:left;
   width: 50%;
-  height: 650px;
+  height:850px;
+}
+
+/* for Hard Skills title*/
+#leftbox h2{
+margin-left: 30px;
 }
 
 #rightbox{
   float:right;
   width: 50%;
-  height:650px;
+  height:700px;
+  margin-top:150px;
+}
+
+/* for Soft Skills title*/
+#rightbox h2{
+margin-left: 30px;
 }
 
 #education{
@@ -75,7 +92,7 @@ a:visited {
 
 #education h1{
   /*line-height: 50px;*/
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 
 }
 
@@ -87,4 +104,5 @@ a:visited {
 
 #contact h2{
   padding-top:20px;
+  text-align: center;
 }
