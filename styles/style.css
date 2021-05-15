@@ -17,16 +17,13 @@ h1 {
 	text-align: left;
   display: inline-block;
   color: #87a7b3;
+  margin: 0;
 	}
 
-.salutations{
-  margin: 0;
-  padding-top: 230px;
-  padding-left: 80px;
-  padding-right: 0px;
-}
-
-
+  h3{
+  	font-family: 'Archivo Black', sans-serif;
+    color: #006994;
+  }
 
 
 img {
@@ -36,11 +33,15 @@ img {
 
 
 h2 {
+  color: #87a7b3;
+  font-family: 'Archivo Black', sans-serif;
 	font-size: 40px;
 	text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
 	}
 
-p, li {
+p{
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 16px;
 	line-height: 2;
@@ -49,13 +50,20 @@ p, li {
   display: inline-block;
 	}
 
+  li{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #cdc7be;
+  }
+
 
 
 body {
   width: 100%;
   margin: 0;
   padding: 0;
-  border: 1px solid none;
   height: 100%;
 }
 
@@ -87,12 +95,13 @@ a:visited {
 
 #main{
   padding-top: 90px;
+  margin-bottom: -5px;
   background-color: #87a7b3;
   height: 620px;
   min-width: 813px;
   width: inherit;
   display: inline-block;
-  overflow: auto
+  overflow: auto;
 }
 
 #main p{
@@ -127,6 +136,21 @@ a:visited {
   margin-top: 50px;
 }
 
+#skills{
+  padding-left: 70px;
+  background-image: url(../images/black.jpg);
+  height: 900px;
+  width: calc(100% - 70px);
+  overflow:auto;
+}
+
+.salutations{
+  margin: 0;
+  padding-top: 230px;
+  padding-left: 80px;
+  padding-right: 0px;
+}
+
 .leftbox{
   float:left;
   width: 50%;
@@ -139,14 +163,35 @@ a:visited {
   height:100%;
 }
 
+/* for softskills section */
+.rightbox h2{
+  margin-top: 30%;
+}
+
 
 #education{
+  padding-top: 90px;
+  background-color: #d1d9d9;
   text-align: center;
-  height: 220px;
+  height: 400px;
+}
+
+#education h1{
+  padding-bottom: 20px;
+}
+
+#education h2{
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 #contact
 {
   text-align: center;
-  height: 160px;
+  height: 210px;
+}
+
+#contact h2{
+  text-align: center;
 }
