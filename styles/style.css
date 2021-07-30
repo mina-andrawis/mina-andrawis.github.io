@@ -98,13 +98,13 @@ a:visited {
 	padding-top: 50px;
 	flex-direction: column;
   background-color: #87a7b3;
-  max-height: 960px;
-  min-width: 813px;
+	min-width: 813px;
   display: inline-block;
   overflow: hidden;
 }
 
 #main p{
+	flex: 1
   display: inline-block;
   margin-right: 120px;
   margin-left: 40px;
