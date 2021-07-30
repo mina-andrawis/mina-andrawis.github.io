@@ -105,7 +105,6 @@ a:visited {
 }
 
 #main p{
-	flex: 1;
   display: inline-block;
   margin-right: 120px;
   margin-left: 40px;
@@ -155,7 +154,6 @@ a:visited {
 }
 
 .leftbox{
-	flex:1;
   float:left;
   width: 50%;
   height:100%;
@@ -167,8 +165,6 @@ a:visited {
   height:100%;
 }
 
-
-
 /* for softskills section */
 .rightbox h2{
   margin-top: 30%;
@@ -176,10 +172,11 @@ a:visited {
 
 
 #education{
-  padding-top: 90px;
+  padding-top: 40px;
   background-color: #d1d9d9;
   text-align: center;
-  height: 400px;
+	flex-direction: column;
+	padding-bottom: 30px;
 }
 
 #education h1{
