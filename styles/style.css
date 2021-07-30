@@ -7,7 +7,7 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  box-sizing: border-box; /* include padding and border included in total width and height of elements */
 }
 
 
@@ -76,9 +76,10 @@ a:visited {
 }
 
 #profilepic{
-  padding-top: 160px;
-  padding-right: 160px;
-  padding-left: 50px;
+	margin: 0;
+  padding-top: 230px;
+  padding-left: 80px;
+  padding-right: 0px;
 }
 
 #intro{
@@ -94,14 +95,13 @@ a:visited {
 }
 
 #main{
-  padding-top: 90px;
-  margin-bottom: -5px;
+	padding-top: 50px;
+	flex-direction: column;
   background-color: #87a7b3;
-  height: 620px;
+  max-height: 960px;
   min-width: 813px;
-  width: inherit;
   display: inline-block;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #main p{
@@ -112,6 +112,7 @@ a:visited {
   text-align: left;
   float: right;
   color: #555555;
+	flex: 1;
 }
 
 #socials{
@@ -141,7 +142,7 @@ a:visited {
   background-image: url(../images/black.jpg);
   height: 900px;
   width: calc(100% - 70px);
-  overflow:auto;
+  overflow: hidden;
 }
 
 .salutations{
