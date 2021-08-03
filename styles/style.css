@@ -82,6 +82,8 @@ a:visited {
   padding-right: 0px;
 }
 
+
+
 #intro{
   width: 100%;
   height: 100%;
@@ -139,11 +141,11 @@ a:visited {
 
 #skills{
 	margin-top: -5px; /* fix white line between skills and intro div */
-	flex-direction: column;
   padding-left: 70px;
   background-image: url(../images/black.jpg);
 	background-size: cover;
   overflow: hidden;
+
 }
 
 .salutations{
@@ -163,6 +165,33 @@ a:visited {
   float:right;
   width: 50%;
   height:100%;
+}
+
+@media screen and (max-width: 1010px) {
+
+#intro{
+	display: flex;
+	flex-direction: column;
+}
+
+/* when screen shrinks, switch position of intro divs */
+.rightbox{
+	order:-1;
+	width: 100%;
+}
+
+.leftbox{
+	width: 100%;
+}
+
+
+#profilepic{
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 500px;
+}
+
 }
 
 /* for softskills section */
