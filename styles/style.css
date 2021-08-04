@@ -4,6 +4,7 @@ html {
 	font-family: 'Raleway', sans-serif;
 	background-color: inherit;
   height: 100%;
+	margin:0;
 }
 
 *, *::before, *::after {
@@ -170,8 +171,10 @@ a:visited {
 @media screen and (max-width: 1010px) {
 
 #intro{
+	width: 100vh;
 	display: flex;
 	flex-direction: column;
+	height: auto;
 }
 
 /* when screen shrinks, switch position of intro divs */
@@ -186,10 +189,12 @@ a:visited {
 
 
 #profilepic{
-		width: 100%;
-		margin-right: auto;
-		margin-left: auto;
-		max-width: 500px;
+	padding:0;
+	margin: auto;
+  width: 100%;
+  padding-top: 80px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 }
