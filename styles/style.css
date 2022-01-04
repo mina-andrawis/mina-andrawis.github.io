@@ -283,17 +283,14 @@ a:visited {
 	}
 
 	#socials{
-		width: 100%;
-		margin-left: 25%;
-		padding: 0;
+		width: 60%;
+		padding-left: 30px;
 	}
 
 	#main p{
 	  display: inline-block;
-	  margin-left: 40px;
-	  width: 100%;
+	  width: 60%;
 	  text-align: left;
-	  float: right;
 	  color: #555555;
 		flex: 1;
 	}
