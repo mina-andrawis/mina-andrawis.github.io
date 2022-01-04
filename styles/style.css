@@ -268,7 +268,7 @@ a:visited {
 } /* end of 861px media query*/
 
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 427px){
 
 	#profilepic{
 		display: none;
