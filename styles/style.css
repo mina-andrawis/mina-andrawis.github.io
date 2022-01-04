@@ -268,7 +268,7 @@ a:visited {
 } /* end of 861px media query*/
 
 
-@media screen and (max-width: 427px){
+@media screen and (max-width: 611px){
 
 	#profilepic{
 		display: none;
@@ -285,6 +285,10 @@ a:visited {
 	#socials{
 		width: 60%;
 		padding-left: 30px;
+	}
+
+	#skills{
+		padding-left: 0;
 	}
 
 	#main p{
