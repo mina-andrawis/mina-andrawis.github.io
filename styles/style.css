@@ -9,6 +9,7 @@ html {
   box-sizing: border-box; /* include padding and border included in total width and height of elements */
 }
 
+
 .container {
   display: flex; /* or inline-flex */
   flex-direction: column;
@@ -29,5 +30,16 @@ img {
 .skills_title {
   color: aqua;
   font-size: 2.5em;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
   font-weight: bolder;
+}
+
+.interpersonal_skills_list {
+	width:20%;
+	float:right;
+	text-align: left;
+	list-style-position: inside;
+
 }
