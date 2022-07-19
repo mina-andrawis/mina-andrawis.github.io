@@ -1,21 +1,20 @@
 html {
 	font-family: 'Raleway', sans-serif;
 	background-color: inherit;
-  height: 100%;
-
-	margin:0;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 *, *::before, *::after {
   box-sizing: border-box; /* include padding and border included in total width and height of elements */
 }
 
-
 .container {
   display: flex; /* or inline-flex */
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 1em;
+
 }
 
 img {
@@ -45,14 +44,16 @@ img {
 	list-style-position: inside;
 }
 
-
+/* BELOW MEDIUM SCREEN MEDIA QUERY */
 @media (max-width: 768px) {
+
   .soft_skills_list {
 		margin-top:0;
   }
+
 }
 
 .navbar {
 	text-align: right;
-	width: 100%
+	width: 100%;
 }
