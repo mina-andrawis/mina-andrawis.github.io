@@ -3,7 +3,10 @@ html {
 	background-color: inherit;
 	padding-left: 2em;
 	padding-right: 2em;
+	padding-bottom: 2em;
 }
+
+
 
 *, *::before, *::after {
   box-sizing: border-box; /* include padding and border included in total width and height of elements */
@@ -43,6 +46,13 @@ img {
 	text-align: left;
 	list-style-position: inside;
 }
+
+.experience li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
 
 /* BELOW MEDIUM SCREEN MEDIA QUERY */
 @media (max-width: 768px) {
