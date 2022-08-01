@@ -1,12 +1,9 @@
-html {
+html, body {
 	font-family: 'Raleway', sans-serif;
 	background-color: inherit;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-bottom: 2em;
+	margin-bottom: 1em;
+	padding:0;
 }
-
-
 
 *, *::before, *::after {
   box-sizing: border-box; /* include padding and border included in total width and height of elements */
@@ -17,8 +14,13 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 1em;
-
 }
+
+.row {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 
 img {
   max-width: 100%;
@@ -52,18 +54,27 @@ img {
 	margin-bottom: 1em;
 }
 
+.navbar {
+	text-align: left;
+	width: 100%;
+}
 
 
-/* BELOW MEDIUM SCREEN MEDIA QUERY */
-@media (max-width: 768px) {
 
-  .soft_skills_list {
-		margin-top:0;
-  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.row{
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 
 }
 
-.navbar {
-	text-align: right;
-	width: 100%;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
